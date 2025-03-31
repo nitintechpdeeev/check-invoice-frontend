@@ -188,6 +188,7 @@ const Capture = () => {
         <label>Check #:</label>
         <input type="text" name="number" value={formData.number} onChange={handleChange} required />
         {errors.number == 'Check' && <span className="error-message">Check Number has already been taken</span>}
+        {errors.number == 'Check Positive' && <span className="error-message">Check Number must be greater than 0</span>}
       </div>
 
       <div className="form-group">
@@ -204,6 +205,7 @@ const Capture = () => {
         <label>Invoice Numbers:</label>
         <input type="text" name="invoice_numbers" value={formData.invoice_numbers} onChange={handleChange} required />
         {errors.number == 'Invoice' && <span className="error-message">Invoice Number has already been taken</span>}
+        {errors.number == 'Invoice Positive' && <span className="error-message">Invoice Number must be greater than 0</span>}
       </div>
 
       <button
