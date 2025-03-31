@@ -1,12 +1,46 @@
-# React + Vite
+**Overview**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* Check-Invoice Frontend is a React-based web application powered by Vite. It provides a modern, fast, and optimized frontend experience. The app leverages React Router for navigation and Axios for API requests.
 
-Currently, two official plugins are available:
+**Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Built with React 19 and Vite for fast development and performance.
+* Uses React Router for seamless navigation.
+* Axios for handling API requests.
+* Web camera support using React Webcam.
+* ESLint for code quality and linting.
 
-## Expanding the ESLint configuration
+**Prerequisites**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Make sure you have the following installed on your machine:
+* Node.js (Latest LTS version recommended)
+* npm or yarn
+
+**Installation**
+* Clone the repository and install dependencies:
+
+* git clone https://github.com/nitintechpdeeev/check-invoice-frontend.git
+
+* cd check-invoice-frontend
+
+**Install dependencies**
+* npm install
+# OR
+* yarn install
+
+**Available Scripts**
+**Development Server**
+
+Start the development server with hot reload:
+
+* npm run dev
+# OR
+* yarn dev
+
+**Technologies Used**
+* React 19 - Component-based UI framework
+* React Router 7 - Client-side routing
+* Axios - HTTP client for API requests
+* React Webcam - Camera integration
+* Vite - Build tool for fast performance
+* ESLint - Linting and code quality enforcement
