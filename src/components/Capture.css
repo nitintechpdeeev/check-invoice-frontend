@@ -1,0 +1,211 @@
+.capture-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.capture-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.camera-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.camera-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.capture-webcam {
+  width: 300px;
+  height: 250px;
+  border: 3px solid #000;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.captured-image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.captured-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  border: 3px solid #000;
+}
+
+.capture-form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.capture-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.capture-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.capture-form button {
+  margin-top: 15px;
+}
+
+.captured-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.captured-image {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+.captured-image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.captured-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.captured-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  border: 3px solid #000;
+  margin-bottom: 10px;
+}
+
+.retake-button {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 150px;
+  text-align: center;
+}
+
+.retake-button:hover {
+  background-color: #b02a37;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.capture-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.capture-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.capture-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.capture-subtext {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.capture-invoice {
+  font-size: 1rem;
+  color: #444;
+}
+
+.capture-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+}
+
+.capture-button:hover {
+  background-color: #0056b3;
+}
+
+.loading-message {
+  color: #ff9800;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
