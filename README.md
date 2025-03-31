@@ -25,7 +25,7 @@ Make sure you have the following installed on your machine:
 
 **Install dependencies**
 * npm install
-# OR
+  OR
 * yarn install
 
 **Available Scripts**
@@ -34,7 +34,7 @@ Make sure you have the following installed on your machine:
 Start the development server with hot reload:
 
 * npm run dev
-# OR
+ OR
 * yarn dev
 
 **Technologies Used**
